@@ -21,4 +21,8 @@ class UserController extends Controller {
         return 'hello';
     }
 
+public function about(){
+return "hello this is about";
+}
+
 }
