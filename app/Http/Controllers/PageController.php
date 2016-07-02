@@ -26,4 +26,7 @@ class PageController {
         echo "</pre>";
        
     }
+    public function hide(){
+        return __METHOD__;
+    }
 }
