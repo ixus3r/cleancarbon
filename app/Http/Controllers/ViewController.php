@@ -9,11 +9,15 @@
 namespace App\Http\Controllers;
 
 /**
- * Description of PageController
+ * Description of ViewController
  *
  * @author ixus3r
  */
-class PageController extends Controller
-{
+class ViewController extends Controller {
+
+    public function view($page = null, ...$params) {
+       
+        return view($page,['param' => $params]);
+    }
 
 }

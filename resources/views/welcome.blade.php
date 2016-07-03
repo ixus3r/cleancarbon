@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Кети е Супер</div>
+                <div class="title">Кети е Супер{{dump($param)}}</div>
             </div>
         </div>
     </body>
